@@ -56,7 +56,7 @@ Advantages of K-means
 - Efficiency: Computationally fast and effective.
 - Interpretability: The results are easy to understand and explain.
 
-# GMM
+### GMM
 
 Gaussian Mixture Models (GMM) are probabilistic models used to represent normally distributed subpopulations within a larger population. The model assumes that the data is generated from a mixture of several Gaussian distributions, each characterized by its own mean and variance. GMMs are widely utilized for clustering and density estimation, allowing complex distributions to be represented through combinations of simpler Gaussian components.
 
