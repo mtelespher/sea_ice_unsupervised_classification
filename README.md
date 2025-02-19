@@ -5,6 +5,8 @@ This project aims to use the altimetry readings from the Sentinel 3 satellite to
 
 ![](https://github.com/mtelespher/sea_ice_unsupervised_classification/blob/main/gmm_echoes.png)
 
+Above: Some examples of the altimeter pulse echoes being classified by the Gaussian Mixture Model into either sea ice or lead. The graphs show their peak strength on y-axis and the time on the x-axis.
+
 ### Project set up:
 
 The satellite images and altimetry data used in this unsupervised learning application is sourced from the Copernicus browser, a free online tool which allows users to access the imagery captured by the Sentinel satellite constellations via https://browser.dataspace.copernicus.eu/.
