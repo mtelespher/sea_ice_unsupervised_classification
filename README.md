@@ -1,7 +1,7 @@
 # Unsupervised classification of Satellite imagery to classify Sea ice or Leads
 
 ## Introduction
-This repository contains the file 'Unsupervised_Learning_Methods.ipynb where this unsupervised classification implementation is carried out. 
+This project aims to classify whether satellite images from Sentinel 3 contain either sea ice, or leads (open water / gaps in the ice). This is done so using unsupervised machine learning techniques as the data involved is unlabelled. Please find this implementation in the file 'Unsupervised_Learning_Methods.ipynb where this implementation is carried out. 
 
 ### Project set up:
 
