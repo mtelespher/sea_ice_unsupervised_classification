@@ -1,11 +1,11 @@
 # Unsupervised classification of Satellite imagery to classify Sea ice or Leads
 
 ## Introduction
-This project aims to classify whether satellite images from Sentinel 3 contain either sea ice, or leads (open water / gaps in the ice). This is done so using unsupervised machine learning techniques as the data involved is unlabelled. Please find this implementation in the file 'Unsupervised_Learning_Methods.ipynb where this implementation is carried out. 
+This project aims to use the altimetry readings from the Sentinel 3 satellite to identify whether the surface that the pulse is reflected on is either sea ice, or lead (open water / gaps in the ice). This is done so using unsupervised machine learning techniques as the data involved is unlabelled. Please find this implementation in the file 'Unsupervised_Learning_Methods.ipynb where this implementation is carried out. 
 
 ### Project set up:
 
-The satellite images used in this unsupervised learning application are from the Copernicus browser, a free online tool which allows users to access the imagery captured by the Sentinel satellite constellations via https://browser.dataspace.copernicus.eu/.
+The satellite images and altimetry data used in this unsupervised learning application is sourced from the Copernicus browser, a free online tool which allows users to access the imagery captured by the Sentinel satellite constellations via https://browser.dataspace.copernicus.eu/.
 
 Prerequisites include the installation of the following packages, which can be done by running the following code:
 
