@@ -3,32 +3,32 @@
 ## Introduction
 This repository contains the file 'Unsupervised_Learning_Methods.ipynb where this unsupervised classification implementation is carried out. 
 
-### Data required:
+### Project set up:
 
-The images used in this unsupervised learning application are from the https://browser.dataspace.copernicus.eu/
+The satellite images used in this unsupervised learning application are from the Copernicus browser, a free online tool which allows users to access the imagery captured by the Sentinel satellite constellations via https://browser.dataspace.copernicus.eu/.
 
 Prerequisites include the installation of the following packages, which can be done by running the following code:
 
-'''
+```
 pip install netCDF4
 
-'''
+```
 
-'''
+```
 pip install basemap
 
-'''
-'''
+```
+```
 pip install cartopy
 
-'''
+```
 
 We use Google Colab to execute the Jupyter notebook attached, this platform offers connectivity to Google Drive, where the files for this application are stored. To access Google Drive through Colab,  mount it to the Colab instance using:
 
-'''
+```
 from google.colab import drive
 drive.mount('/content/drive')
-'''
+```
 
 ## Unsupervised classification methods
 
