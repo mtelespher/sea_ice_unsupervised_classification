@@ -57,22 +57,23 @@ Advantages of K-means
 Gaussian Mixture Models (GMM) are probabilistic models used to represent normally distributed subpopulations within a larger population. The model assumes that the data is generated from a mixture of several Gaussian distributions, each characterized by its own mean and variance. GMMs are widely utilized for clustering and density estimation, allowing complex distributions to be represented through combinations of simpler Gaussian components.
 
 Why Use Gaussian Mixture Models for Clustering?
-	•	Soft Clustering: Unlike K-means, GMM provides the probability of each data point belonging to each cluster, offering a soft classification and insights into data uncertainties.
-	•	Flexible Cluster Covariance: GMMs allow clusters to have different sizes and shapes, capturing true data variance more effectively.
+- Soft Clustering: Unlike K-means, GMM provides the probability of each data point belonging to each cluster, offering a soft classification and insights into data uncertainties.
+- Flexible Cluster Covariance: GMMs allow clusters to have different sizes and shapes, capturing true data variance more effectively.
 
-Key Components of GMM
+Key Components of GMM:
+
 	1.	Number of Components: Similar to K in K-means, this represents the number of Gaussian distributions (clusters) in the model.
 	2.	Expectation-Maximization (EM) Algorithm: An iterative process that improves the likelihood of the data fitting the model.
 	3.	Covariance Type: Determines the shape, size, and orientation of the clusters (e.g., spherical, diagonal, tied, or full covariance).
 
  The Expectation-Maximization (EM) Algorithm in GMM
-	•	Expectation Step (E-step): Calculates the probability that each data point belongs to each cluster.
-	•	Maximization Step (M-step): Updates the parameters of the Gaussian components (mean, covariance, and mixing coefficients) to maximize data likelihood.
-	•	The process repeats until convergence, when parameters stabilize between iterations.
+- Expectation Step (E-step): Calculates the probability that each data point belongs to each cluster.
+- Maximization Step (M-step): Updates the parameters of the Gaussian components (mean, covariance, and mixing coefficients) to maximize data likelihood.
+- The process repeats until convergence, when parameters stabilize between iterations.
 
 Advantages of GMM
-	•	Soft Clustering: Provides a probabilistic framework for understanding uncertainties in data assignments.
-	•	Cluster Shape Flexibility: GMMs adapt to ellipsoidal cluster shapes due to their flexible covariance structure.
+- Soft Clustering: Provides a probabilistic framework for understanding uncertainties in data assignments.
+- Cluster Shape Flexibility: GMMs adapt to ellipsoidal cluster shapes due to their flexible covariance structure.
 
 ## Contact details
 
