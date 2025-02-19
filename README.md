@@ -3,7 +3,7 @@
 ## Introduction
 This project aims to use the altimetry readings from the Sentinel 3 satellite to identify whether the surface that the pulse is reflected on is either sea ice, or lead (open water / gaps in the ice). This is done so using unsupervised machine learning techniques as the data involved is unlabelled. Please find this implementation in the file 'Unsupervised_Learning_Methods.ipynb where this implementation is carried out. 
 
-![]
+![https://github.com/mtelespher/sea_ice_unsupervised_classification/blob/main/gmm_echoes.png]
 
 ### Project set up:
 
